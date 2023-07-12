@@ -22,14 +22,14 @@ This repository provides a modified version of the baseline code called dev_hf, 
 - Confusion matrix
 
 These features are supported in the template, providing additional functionality for the task. 
-## 3️⃣ 팀원 소개
+## 3️⃣ Team
 
 김별희|이원재|이정아|임성근|정준녕|
 :-:|:-:|:-:|:-:|:-:
 <img src='https://avatars.githubusercontent.com/u/42535803?v=4' height=80 width=80px></img>|<img src='https://avatars.githubusercontent.com/u/61496071?v=4' height=80 width=80px></img>|<img src='https://avatars.githubusercontent.com/u/65378914?v=4' height=80 width=80px></img>|<img src='https://avatars.githubusercontent.com/u/14817039?v=4' height=80 width=80px></img>|<img src='https://avatars.githubusercontent.com/u/51015187?v=4' height=80 width=80px></img>
 [Github](https://github.com/kimbyeolhee)|[Github](https://github.com/wjlee-ling)|[Github](https://github.com/jjeongah)|[Github](https://github.com/lim4349)|[Github](https://github.com/ezez-refer)
 
-## 4️⃣ 데이터
+## 4️⃣ Data
 ```
 Example)
 sentence: 오라클(구 썬 마이크로시스템즈)에서 제공하는 자바 가상 머신 말고도 각 운영 체제 개발사가 제공하는 자바 가상 머신 및 오픈소스로 개발된 구형 버전의 온전한 자바 VM도 있으며, GNU의 GCJ나 아파치 소프트웨어 재단(ASF: Apache Software Foundation)의 하모니(Harmony)와 같은 아직은 완전하지 않지만 지속적인 오픈 소스 자바 가상 머신도 존재한다.
@@ -41,7 +41,7 @@ relation: 단체:별칭 (org:alternate_names)
 - train.csv: 32470개 <br>
 - test_data.csv: 총 7765개 (정답 라벨 blind = 100으로 임의 표현) <br>
 
-## 5️⃣ 모델 설명
+## 5️⃣ Model
 <details>
     <summary><b><font size="10">Project Tree</font></b></summary>
 <div markdown="1">
