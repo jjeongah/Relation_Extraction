@@ -38,8 +38,8 @@ object_entity: 오라클
 
 relation: 단체:별칭 (org:alternate_names)
 ```
-- train.csv: 32470개 <br>
-- test_data.csv: 총 7765개 (정답 라벨 blind = 100으로 임의 표현) <br>
+- number of train.csv: 32470 <br>
+- number of test_data.csv: 7765 (Using the label "blind=100" to represent the hidden/unknown label) <br>
 
 ## 5️⃣ Model
 <details>
