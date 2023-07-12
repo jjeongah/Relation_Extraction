@@ -4,7 +4,7 @@
 
 KLUE-Relation Extraction is a task that predicts the attributes and relationships of words (entities) in a sentence. 
 - **input:** sentence, subject_entity, object_entity
-- **output:** relation 30개 중 하나를 예측한 pred_label, 그리고 30개 클래스 각각에 대해 예측한 확률 probs
+- **output:** pred_label, which is one of the 30 relation classes, the predicted probabilities (probs) for each of the 30 classes
 - **evaluation metrics**
   - Micro F1 score, excluding the no_relation class
   - Area Under the Precision-Recall Curve (AUPRC) for all classes
